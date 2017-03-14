@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade|Great+Vibes');
+
+body {
+	margin: 0 auto;
+	background: url(../images/grimes_img07.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+.nav-menu{
+	position: fixed;
+	top: 0px; left: 0; right: 0;
+	height: 40px;
+	background-color: black;
+}
+
+nav {
+	padding-top: 10px;
+	display: inline-block;
+	word-spacing: 20px;
+	color: white;
+}
+
+.nav-menu a {
+	padding: 10px 0;
+	text-decoration: none;
+	color: red;
+}
+
+.nav-menu a:hover{
+	color: black;
+	background-color: white;
+	transition: .3s;
+}
+
+.nav-menu ul{
+	margin-top: 10px;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.nav-menu li {
+	color: red;
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	text-align: right;
+}
+
+.logo {
+	position: fixed;
+	left: 0; right: 0; top: 40px;
+	margin: 0 auto;
+	text-align: center;
+	color: red;
+	text-shadow: 2px 7px 8px;
+	font-family: 'Great Vibes';
+	font-size: 50px;
+	letter-spacing: 20px;
+	background-color: rgba(255,255,255,.5);
+}
+
+.about-text-div{
+	margin: 120px auto; 
+	width: 750px;
+	height: 400px;
+	overflow: auto;
+	background-color: rgba(0,0,0,.8);
+	color: white;
+	padding: 20px;
+	border-radius: 5%;
+	font-size: 17px;
+	font-family: Arial;
+	line-height: 23px;
+}
+
+.vip-text{
+	font-family: impact;
+	font-size: 19px;
+	font-weight: 10;
+}
+
+
+
+

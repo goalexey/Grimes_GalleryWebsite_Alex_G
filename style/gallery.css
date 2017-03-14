@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade|Great+Vibes');
+
+body {
+	margin: 0 auto;
+	background: url(../images/grimes_img22.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+.nav-menu{
+	position: fixed;
+	top: 0px; left: 0; right: 0;
+	height: 40px;
+	background-color: black;
+}
+
+nav {
+	padding-top: 10px;
+	display: inline-block;
+	word-spacing: 20px;
+	color: white;
+}
+
+.nav-menu a {
+	padding: 10px 0;
+	text-decoration: none;
+	color: red;
+}
+
+.nav-menu a:hover{
+	color: black;
+	background-color: white;
+	transition: .4s;
+}
+
+.nav-menu ul{
+	margin-top: 10px;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.nav-menu li {
+	color: red;
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	text-align: right;
+}
+
+.logo {
+	position: fixed;
+	left: 0; right: 0; top: 40px;
+	margin: 0 auto;
+	text-align: center;
+	color: red;
+	text-shadow: 2px 7px 8px;
+	font-family: 'Great Vibes';
+	font-size: 50px;
+	letter-spacing: 20px;
+	background-color: rgba(255,255,255,.5);
+}
+
+/*.wrap-800{
+	position: relative;
+	margin: 120px auto;
+	width: 770px;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,.6);
+}*/
+
+.wrap-800{
+	position: relative;
+	margin: 120px auto;
+	width: 770px;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,.6);
+}
+
+/*.wrap-one-third {
+	display: inline-block;
+	text-align: center;
+	padding: 15px 0;
+}*/
+
+.wrap-one-third img{
+	border: solid white 1px;
+	width: 30%;
+}
+
+.wrap-one-third img:hover{
+	border: solid red 1px;
+	/*opacity:.7;*/
+	transition: width .3s ease-in;
+	width: 31%;
+}
+
+#img1{position: absolute; top: 10px; left: 10px;}
+
+#img2{position: absolute; top: 10px; left: 270px;}
+
+#img3{position: absolute; top: 10px; left: 530px;}
+
+#img4{position: absolute; top: 220px; left: 10px;}
+
+#img5{position: absolute; top: 220px; left: 270px;}
+
+#img6{position: absolute; top: 220px; left: 530px;}
+
+#img7{position: absolute; top: 430px; left: 10px;}
+
+#img8{position: absolute; top: 430px; left: 270px;}
+
+#img9{position: absolute; top: 430px; left: 530px;}
+
+#img7{position: absolute; top: 430px; left: 10px;}
+
+#img8{position: absolute; top: 430px; left: 270px;}
+
+#img9{position: absolute; top: 430px; left: 530px;}
+
+#img10{position: absolute; top: 640px; left: 10px;}
+
+#img11{position: absolute; top: 640px; left: 270px;}
+
+#img12{position: absolute; top: 640px; left: 530px;}
+
+
+
+.lightbox{
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background-color: rgba(0,0,0,.8);
+	z-index: 1;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.lightbox:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.lightbox > div {
+	text-align: center;
+	width: 600px;
+	position: relative;
+	margin: 20% auto;
+	padding: 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+	box-shadow: 10px 10px 20px;
+	z-index: 1000;
+}
+
+
+
+.gal-btn{
+	background-color: rgba(255,255,255,.3);
+	padding: 60px 30px;
+	margin: 0 80px;
+	cursor: pointer;
+	color: white;
+	font-size: 80px;
+	font-family: Arial;
+	opacity: .7;
+	z-index: 10;
+}
+
+.gal-btn:hover{
+	opacity: 1;
+	text-shadow: 2px 5px 20px;
+}
+
+
+
+.gallery-img{
+	width: 600px;
+}
+
+.close{
+	cursor: default;
+	position: absolute;
+	font-size: 50px;
+	color: white;
+	font-family: Helvetica;
+	top: 0; right: 0; bottom: 0; left: 0;
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+	z-index: 2;
+}
+
+

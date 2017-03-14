@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="style/gallery.css">
+</head>
+<body>
+	
+	<div class="nav-menu">
+		<ul>
+			<a href="index.html"><li>HOME</li></a>
+			<li>|</li>
+			<a href="about.html"><li>ABOUT</li></a>
+			<li>|</li>
+			<a href="#"><li>GALLERY</li></a>
+			<li>|</li>
+			<a href="videos.html"><li>VIDEOS</li></a>
+			<li>|</li>
+			<a href="discography.html"><li>DISCOGRAPHY</li></a>
+		</ul>
+	</div>
+	<div class="logo">Grimes</div>
+
+	<!-- GALLERY THUMBNAILS with border box wrapping. Keeping these just in case -->
+	<!-- <div class="wrap-800">
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img1" src="images/midmini_images/mini_grimes_img03.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img2" src="images/midmini_images/mini_grimes_img04.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img3" src="images/midmini_images/mini_grimes_img07.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img4" src="images/midmini_images/mini_grimes_img08.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img5" src="images/midmini_images/mini_grimes_img09.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img6" src="images/midmini_images/mini_grimes_img10.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img7" src="images/midmini_images/mini_grimes_img12.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img8" src="images/midmini_images/mini_grimes_img14.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img9" src="images/midmini_images/mini_grimes_img15.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img10" src="images/midmini_images/mini_grimes_img18.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img11" src="images/midmini_images/mini_grimes_img19.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img12" src="images/midmini_images/mini_grimes_img21.jpg" title="">
+		</a></div>
+	</div> -->
+
+
+	<!-- GALLERY THUMBNAILS with Ids for absolute positioning - in order to animate without affecting other images -->
+	<div class="wrap-800">
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img1" src="images/midmini_images/mini_grimes_img03.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img2" src="images/midmini_images/mini_grimes_img04.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img3" src="images/midmini_images/mini_grimes_img07.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img4" src="images/midmini_images/mini_grimes_img08.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img5" src="images/midmini_images/mini_grimes_img09.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img6" src="images/midmini_images/mini_grimes_img10.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img7" src="images/midmini_images/mini_grimes_img12.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img8" src="images/midmini_images/mini_grimes_img14.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img9" src="images/midmini_images/mini_grimes_img15.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img10" src="images/midmini_images/mini_grimes_img18.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img11" src="images/midmini_images/mini_grimes_img19.jpg" title="">
+		</a></div>
+		<div class="wrap-one-third">
+			<a href="#open-lightbox"><img id="img12" src="images/midmini_images/mini_grimes_img21.jpg" title="">
+		</a></div>
+	</div>
+
+	<!-- LIGHTBOX DIV with Center Window for gallery images-->
+	<div id="open-lightbox" class="lightbox">
+		<a class="gal-btn" onclick="plusDivs(-1)">&#10094</a>
+		<div class="lightbox-window">
+			<img class="gallery-img" src="images/grimes_img03.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img04.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img07.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img08.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img09.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img10.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img12.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img14.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img15.jpeg" title="">
+			<img class="gallery-img" src="images/grimes_img18.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img19.jpg" title="">
+			<img class="gallery-img" src="images/grimes_img21.jpg" title="">	
+		</div>
+		<!-- close anchor stretched across whole window but z-indexed to be behind picture and nav buttons, yet in front of lightbox cover -->
+		<a href="#close" title="Close" class="close"></a>
+		<a class="gal-btn" onclick="plusDivs(+1)">&#10095</a>
+	</div>
+	
+	
+	
+<script>
+
+	// SCRIPT FOR GALLERY LIGHTBOX DISPLAY WITH ROTATING ARRAY OF IMAGES
+	var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n){
+	showDivs(slideIndex += n);
+}
+
+function showDivs(n){
+	var i;
+	var galleryArray = document.getElementsByClassName("gallery-img");
+
+	if(n > galleryArray.length){
+		slideIndex = 1;
+	}
+	if(n < 1){
+		slideIndex = galleryArray.length;
+	}
+
+	for(i = 0; i < galleryArray.length; i++){
+		galleryArray[i].style.display = "none";	
+	}
+	galleryArray[slideIndex - 1].style.display = "block";
+
+
+}
+</script>
+</body>
+</html>
